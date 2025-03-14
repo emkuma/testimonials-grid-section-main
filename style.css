@@ -10,6 +10,7 @@ html {
 body {
     font-family: "Barlow Semi Condensed";
     font-weight: 500 600;
+    /* margin: 0 auto; */
 }
 
 img {
@@ -41,6 +42,8 @@ h1 {
 }
 
 .testimonials { 
+    margin: 0 auto;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
