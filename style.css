@@ -82,9 +82,8 @@ h1 {
     .testimonials { 
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 450px 450px;
-    
+        grid-template-columns: repeat(4, 350px);
+    }
     
     .testimony-clifford {
         grid-column: span 2;
