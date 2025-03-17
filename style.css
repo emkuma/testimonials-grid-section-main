@@ -40,7 +40,7 @@ h1 {
     max-width: 110px;
 }
 .testimony {
-    margin: 1.5em 1.5em 1em;
+    margin: 1.5em .85em 1em;
     padding: 1.5em 2.5em 1em;
     font-weight: thin;
     letter-spacing: 1.2px;
@@ -82,7 +82,7 @@ h1 {
     .testimonials { 
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(4, 350px);
+        grid-template-columns: repeat(4, 360px);
     }
     
     .testimony-clifford {
