@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: "Barlow Semi Condensed";
-    font-weight: 500 600;
+    font-weight: 500;
 }
 
 img {
@@ -36,20 +36,14 @@ h1 {
     margin-left: 10px;
 }
 
-.profile-name--modify {
-    max-width: 110px;
-}
 .testimony {
     margin: 1.5em .85em 1em;
     padding: 1.5em 2.5em 1em;
     font-weight: thin;
     letter-spacing: 1.2px;
     line-height: 1.5;
-    height: auto;
     border-radius: 2%;
     box-shadow: 46px 19px 58px -26px rgba(0,0,0,0.3);
-    overflow: hidden;
-
 }
 
 .testimony-clifford {
@@ -80,7 +74,6 @@ h1 {
 @media screen and (min-width: 900px) {
     
     .testimonials { 
-        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(4, 360px);
     }
