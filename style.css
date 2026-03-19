@@ -50,6 +50,10 @@ h1 {
     font-weight: 500;
 }
 
+.testimony p {
+    font-weight: 400;
+}
+
 .testimony-clifford {
     background-color: hsl(263, 55%, 52%);
     color: hsl(0, 0%, 80%);
